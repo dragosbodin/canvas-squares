@@ -1,0 +1,36 @@
+/****************************************
+*************** VARIABLES ***************
+****************************************/
+
+$light: #fff !default;
+$dark: #000 !default;
+
+/****************************************
+***************** STYLES ****************
+****************************************/
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	min-height: 100vh;
+	background-color: $dark;
+}
+
+.squares {
+	width: 100%;
+	height: 100%;
+}

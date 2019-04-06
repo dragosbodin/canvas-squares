@@ -1,0 +1,30 @@
+{
+  "name": "canvas-squares",
+  "version": "1.0.0",
+  "description": "Canvas square animation",
+  "main": "src/js/index.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "author": "Dragos Bodin",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "del": "^4.1.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-group-concat": "^1.1.6",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-util": "^3.0.8"
+  }
+}
